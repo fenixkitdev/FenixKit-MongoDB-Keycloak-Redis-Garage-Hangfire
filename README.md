@@ -1,15 +1,25 @@
-# FenixKit — .NET Minimal API — MongoDB + Keycloak + Redis + Garage + Hangfire
+# FenixKit — SPACE Edition
 
 > **Ship faster. Build smarter.**  
-> A .NET Minimal API starter with Keycloak JWT authentication, Redis cache-aside, S3-compatible file storage, background job processing, MongoDB, and zero manual setup.
+> A .NET Minimal API starter with everything your API needs — persistence, auth, cache, storage, and background jobs — wired up and ready to extend.
 
-Keycloak JWT auth is the hardest part to get right in a new .NET API. Wrong token validation, missing role checks, broken Swagger login flows, no health check on the auth server — all fixable, all time-consuming. FenixKit ships with all of it wired up from day one, plus a full tag-based Redis cache layer, a complete S3 file storage system with three access modes, a file attachment repository that attaches files to any domain entity, and a Hangfire background job layer backed by the same MongoDB instance.
+**SPACE** is an acronym for the five layers every serious API needs:
 
-> **Keycloak, Redis, Garage, and Hangfire run out of the box.** A pre-built realm with two test users is imported automatically when the Docker stack starts. Garage is bootstrapped by an init container. No manual setup required for any dependency.
+| Letter | Layer | Technology |
+|---|---|---|
+| **S** | **S**torage | Garage (self-hosted S3-compatible object storage) — swappable for AWS S3 or any S3-compatible backend |
+| **P** | **P**ersistence | MongoDB — generic repository with full CRUD, hooks, and typed errors |
+| **A** | **A**uth | Keycloak — JWT Bearer validation, role-based policies, OAuth2 PKCE Swagger login |
+| **C** | **C**ache | Redis — tag-based cache-aside with FailOpen / FailClosed modes; swappable for Valkey |
+| **E** | **E**ngine | Hangfire — fire-and-forget, delayed, and recurring background jobs with MongoDB persistence |
+
+Keycloak JWT auth is the hardest part to get right in a new .NET API. Wrong token validation, missing role checks, broken Swagger login flows, no health check on the auth server — all fixable, all time-consuming. FenixKit SPACE ships with all five layers wired up from day one, backed by a single `docker compose up`.
+
+> **All five layers run out of the box.** A pre-built realm with two test users is imported automatically when the Docker stack starts. Garage is bootstrapped by an init container. No manual setup required for any dependency.
 
 <p align="center">
   <a href="https://fenixkit.dev">
-    <img src="images/logo-mongo-redis-garage-hangfire.png" alt="FenixKit" width="300" />
+    <img src="images/logo-space.png" alt="FenixKit SPACE" width="300" />
   </a>
 </p>
 <h3 align="center">
@@ -507,6 +517,6 @@ Already own FenixKit Base or the Keycloak + Redis edition? See `MIGRATION.md` �
 
 ## License
 
-FenixKit MongoDB + Keycloak + Redis + Garage + Hangfire is a commercial product. Each purchase grants a lifetime licence for unlimited personal and commercial projects.
+FenixKit SPACE is a commercial product. Each purchase grants a lifetime licence for unlimited personal and commercial projects.
 
 👉 **[fenixkit.dev](https://fenixkit.dev)**
