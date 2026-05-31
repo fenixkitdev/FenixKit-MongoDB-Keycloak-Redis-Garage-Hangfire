@@ -1,5 +1,15 @@
 # FenixKit — SPACE Edition
 
+<p align="center">
+  <a href="https://fenixkit.dev">
+    <img src="images/logo-space.png" alt="FenixKit SPACE" width="1200" />
+  </a>
+</p>
+<h3 align="center">
+  Get it here: <a href="https://fenixkit.dev">fenixkit.dev</a>
+</h3>
+
+
 > **Ship faster. Build smarter.**  
 > A .NET Minimal API starter with everything your API needs — persistence, auth, cache, storage, and background jobs — wired up and ready to extend.
 
@@ -16,15 +26,6 @@
 Keycloak JWT auth is the hardest part to get right in a new .NET API. Wrong token validation, missing role checks, broken Swagger login flows, no health check on the auth server — all fixable, all time-consuming. FenixKit SPACE ships with all five layers wired up from day one, backed by a single `docker compose up`.
 
 > **All five layers run out of the box.** A pre-built realm with two test users is imported automatically when the Docker stack starts. Garage is bootstrapped by an init container. No manual setup required for any dependency.
-
-<p align="center">
-  <a href="https://fenixkit.dev">
-    <img src="images/logo-space.png" alt="FenixKit SPACE" width="300" />
-  </a>
-</p>
-<h3 align="center">
-  Get it here: <a href="https://fenixkit.dev">fenixkit.dev</a>
-</h3>
 
 ---
 
