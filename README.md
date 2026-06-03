@@ -2,11 +2,11 @@
 
 <p align="center">
   <a href="https://fenixkit.dev/kits/ember/">
-    <img src="https://fenixkit.dev/assets/kits/banners/ember.png" alt="EMBER by FenixKit" width="100%" />
+    <img src="images/banner.png" alt="EMBER by FenixKit" width="100%" />
   </a>
 </p>
 <p align="center">
-  <img src="https://fenixkit.dev/assets/kits/logos/ember.png" alt="EMBER" width="200" />
+  <img src="images/logo.png" alt="EMBER" width="200" />
 </p>
 <h3 align="center">
   <a href="https://fenixkit.dev/kits/ember/">fenixkit.dev/kits/ember/</a>
